@@ -1,0 +1,367 @@
+body {
+   margin: 0;
+   padding-top: 100px;
+   background-color: rgb(245, 245, 245);
+}
+
+
+/* NAV BARRE*/
+
+.responsive {
+	display: none;
+}
+
+.header-section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	padding: 0 100px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   width: 100%;
+}
+
+.scroll {
+   background-color: rgb(245, 245, 245);
+   position: fixed;
+   top: 0;
+	z-index: 999;
+	padding: 0 100px;
+   width: 100%;
+   box-shadow: 0px 3px 5px #E2E2E2;
+ }
+
+.header-logo {
+	display: inline-block;
+	float: left;
+   padding-top: 5px;
+   cursor: pointer;
+}
+
+.header-logo img {
+	width: 50px;
+   transition: transform .2s;
+}
+
+.header-logo img:hover {
+   transform: scale(1.1);
+}
+
+.navbar {
+	list-style: none;
+   margin: 0;
+   margin-left: 200px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+}
+
+.navbar li {
+   display: inline;
+}
+
+.navbar li a {
+	display: inline-block;
+   padding: 27px 5px;
+	margin-left: 10px;
+	color: #153350;
+	position: relative;
+	font-family: "Roboto", sans-serif;
+   font-size: 14px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.navbar li a:hover, .navbar li a.active {
+   color: #69c6c0;
+   text-decoration: none;
+}
+
+.navbar li.active a {
+	color: #69c6c0;
+}
+
+
+.header-div{
+   position: absolute;
+   top: -100px;
+   right: 0px;
+   height: 800px;
+   width: 500px;
+   border-radius: 100% 0% 45% 55% / 69% 88% 12% 31%;
+   background-image: linear-gradient(to left bottom, #153350, #203e5d, #2a4a6a, #355677, #3f6285, #426e91, #457b9d, #4988a9, #4898b2, #4da8b9, #58b7be, #69c6c0);
+}
+
+.header-div-2 {
+   width: 100%;
+   height: 100%;
+   border-radius: 100% 0% 45% 55% / 69% 88% 12% 31%;
+   
+   /* background-size: 100%;
+   background-position-x: 22px;
+   background-position-y: 100%;
+   background-repeat: no-repeat;
+   background-image: url('../img/myself\ \(1\).png'); */
+
+   background-size: 100%;
+   background-position-x: 22px;
+   background-position-y: 100%;
+   background-repeat: no-repeat;
+   background-image: url('../img/myself\ \(3\).png');
+}
+
+.header-text {
+   padding-left: 100px;
+   padding-top: 150px;
+   font-family: 'Open Sans', sans-serif;
+   color: #A6A6A6;
+   height: 550px;
+}
+
+.title {
+   font-family: 'Lobster', cursive;
+   font-size: 45px;
+   margin-bottom: 30px;
+   color: #153350;
+}
+
+
+.title-2 {
+   color: #153350;
+   font-size: 20px;
+}
+
+.header-icon {
+   margin-top: 30px;
+   height: 30px;
+   width: 100%;
+}
+
+.header-icon i {
+   color: #A6A6A6;
+   font-size: 20px;
+   margin: 0 15px 0 0;
+}
+
+.header-icon i:hover {
+   color: #69c6c0;
+   font-size: 20px;
+   margin-right: 15px;
+   -webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+
+
+/* ABOUT */
+
+.about {
+   height: 500px;
+   margin-top: 50px;
+}
+
+.about-1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+}
+
+.about-1-1 {
+   height: 400px;
+   width: 400px;
+   border-radius: 59% 41% 54% 46% / 36% 75% 25% 64%;
+   background-image: linear-gradient(to right top, #153350, #194262, #1b5175, #1c6187, #1a729a, #1483aa, #0a94b9, #00a5c8, #0abad6, #25d0e1, #41e6ea, #5ffbf1);
+   z-index: 2;
+}
+
+.about-1-1-img {
+   height: 400px;
+   width: 400px;
+   border-radius: 59% 41% 54% 46% / 36% 75% 25% 64%;
+   background-image: url('../img/myself\ \(1\).png');
+   z-index: 3;
+   background-size: 85%;
+   background-position-y: 100%;
+   background-position-x: 30px;
+   background-repeat: no-repeat;
+}
+
+.about-1-2 {
+   position: absolute;
+   top: 50px;
+   left: 40px;
+   width: 400px;
+   height: 400px;
+   border-radius: 28% 72% 55% 45% / 69% 58% 42% 31% ;
+   background-color: rgb(230, 230, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+   height: 350px;
+   color: white;
+   font-family: "Roboto", sans-serif;
+}
+
+.footer-1 {
+   background-color: #153350;
+   height: 300px;
+   padding: 50px 0;
+}
+
+.footer-logo {
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.footer-nav {
+   height: 85px;
+   width: 100%;
+   padding: 0 37.5%;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-nav a {
+	color: rgb(245, 245, 245);
+   font-size: 13px;
+   text-decoration: none;
+   margin: 0 20px;
+}
+
+.footer-icons {
+   width: 100%;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   font-size: 30px;
+}
+
+.footer-icons a {
+   width: 45px;
+   height: 45px;
+   line-height: 48px;
+   text-align: center;
+   background: rgb(245, 245, 245);
+   border-radius: 36px;
+   color: #69c6c0;
+   font-size: 22px;
+   margin: 0 15px;
+}
+
+.footer-icons a:hover {
+   background-image: linear-gradient(to left bottom, #153350, #203e5d, #2a4a6a, #355677, #3f6285, #426e91, #457b9d, #4988a9, #4898b2, #4da8b9, #58b7be, #69c6c0);
+   color: rgb(245, 245, 245);
+   transition: all 0.5s ease 0s;
+}
+
+.footer-2 {
+   background-color: #0e2336;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #00050a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENU BURGER */
+
+/* Large Ecran :1200px. */
+@media only screen and (max-width: 1200px) {
+   .header-div{
+      display: none;
+   }
+}
+
+/* Ecran :767px. */
+@media only screen and (max-width: 767px) {
+   .header-text {
+      padding-left: 30px;
+      padding-top: 60px;
+      transition: all 0.4s ease 0s;
+   }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.header-logo {
+		padding-top: 10px;
+      padding-bottom: 10px;
+   }
+
+   .header-section {
+      padding: 0px 30px;
+   }
+
+	.navbar {
+		display: none;
+		float: none;
+		clear: both;
+		border-top: 1px solid #ddd;
+	}
+	.navbar li {
+		display: inline;
+   }
+   
+	.navbar li a {
+		display: block;
+		padding: 10px;
+		margin-right: 0;
+	}
+	.navbar li a:after {
+		left: 0%;
+	}
+	.navbar li a:hover:after {
+		width: 10px;
+		margin-left: 10px;
+   }
+   
+	.navbar .current a:after {
+		margin-left: 10px;
+   }
+   
+	.responsive {
+		display: block;
+		color: #69c6c0;
+		font-size: 34px;
+		position: absolute;
+		right: 5vh;
+		padding: 20px;
+   }
+}
