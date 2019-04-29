@@ -2,6 +2,7 @@
 
 @section('content')
 
-   @include('component.services.services1')
+   @include('component.service.services1')
+   @include('component.service.services2')
    
 @endsection

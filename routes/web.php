@@ -26,3 +26,8 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+
+/* Mail */
+
+Route::post('/mail/send', 'MailController@mail')->name('mail');

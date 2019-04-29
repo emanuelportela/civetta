@@ -2,7 +2,9 @@
 
    <div class="footer-1">
       
-      <div class="footer-logo"><a href="{{route('home')}}"><img src="{{asset('img/final-4.png')}}" alt="" style="height: 100%;"></a></div>
+      <div class="footer-logo"><a href="{{route('home')}}">
+         <img src="{{asset('img/finalement-4.png')}}" style="height: 100%;">
+      </a></div>
 
       <div class="footer-nav">
 

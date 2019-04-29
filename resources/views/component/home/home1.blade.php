@@ -3,7 +3,7 @@
    <header class="header-section">
       
       <div class="header-logo">
-         <a href="{{route('home')}}"><img src="{{ asset('img/finalement-1.png')}}"></a>
+         <a href="{{route('home')}}"><img src="{{ asset('img/final-3.png')}}"></a>
       </div>
       
       <!-- Navigation -->
