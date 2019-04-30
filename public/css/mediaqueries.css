@@ -1,6 +1,17 @@
-/* MEDIA QUERIES (start) */
+/* ECRAN EXTRA LARGE - 1285px (start) */
 
-/* Large Ecran :1200px. */
+@media only screen and (max-width: 1285px) {
+   .services-3 {
+      padding: 0 180px;
+   }
+}
+
+/* ECRAN EXTRA LARGE - 1285px (end) */
+
+
+
+/* ECRAN EXTRA LARGE - 1200px (start) */
+
 @media only screen and (max-width: 1200px) {
    .header-div{
       display: none;
@@ -16,9 +27,23 @@
    .about-2 {
       padding: 50px 20px;
    }
+
+   .section-services {
+      padding: 30px;
+      height: 930px;
+   }
+
+   .services-3 {
+      padding: 0 180px;
+   }
 }
 
-/* Ecran :1090px. */
+/* ECRAN EXTRA LARGE - 1200px (end) */
+
+
+
+/* ECRAN LARGE - 1090px (start) */
+
 @media only screen and (max-width: 1090px) {
 
    .about-1-2 {
@@ -37,9 +62,17 @@
       width: 350px;
       height: 350px;
    }
+   .services-3 {
+      padding: 0 150px;
+   }
 }
 
-/* Ecran :991px. */
+/* ECRAN LARGE - 1090px (end) */
+
+
+
+/* ECRAN MEDIUM - 991px (start) */
+
 @media only screen and (max-width: 991px) {
 
    .contact-form {
@@ -54,11 +87,49 @@
       .contact-donnees, .c-form-1-5 {
          margin-top: 30px;
       }
+
+      .services-3 {
+         padding: 0 100px;
+      }
+
+      .section-services {
+         height: 950px;
+      }
 }
 
+/* ECRAN MEDIUM - 991px (end) */
 
 
-/* Ecran :767px. */
+
+/* ECRAN MEDIUM - 928px (start) */
+
+@media only screen and (max-width: 928px) {
+   .services-3 {
+      padding: 0 70px;
+   }
+   .section-services {
+      height: 900px;
+   }
+}
+
+/* ECRAN MEDIUM - 928px (end) */
+
+
+
+/* ECRAN MEDIUM - 861px (start) */
+
+@media only screen and (max-width: 861px) {
+   .services-3 {
+      padding: 0 50px;
+   }
+}
+
+/* ECRAN MEDIUM - 861px (end) */
+
+
+
+/* ECRAN MEDIUM - 767px (start) */
+
 @media only screen and (max-width: 767px) {
    .header-text {
       height: 300px;
@@ -154,12 +225,31 @@
       height: 900px;
       padding-right: 50px;
    }
+   
+   .section-services {
+      height: 1570px;
+   }
+
+   .services-3 {
+      padding: 0;
+      height: 1350px;
+   }
+
+   .services-3-1 {
+      width: 100%;
+   }
+
+   .services-3-1-1 {
+      width: 100%;
+   }
 }
 
+/* ECRAN MEDIUM - 767px (end) */
 
 
 
-/* Ecran :500px. */
+/* ECRAN SMALL - 500px (start) */
+
 @media only screen and (max-width: 500px) {
    .responsive {
       right: 5vh;
@@ -256,3 +346,5 @@
          font-size: 10px;
       }
 }
+
+/* ECRAN SMALL - 500px (end) */
