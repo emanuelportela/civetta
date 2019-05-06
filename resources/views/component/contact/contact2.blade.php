@@ -60,7 +60,7 @@
             <div class="contact-donnee-1"><i class="fas fa-home"></i></i></div>
             <div class="contact-donnee-2">
                <div class="contact-donnee-2-1">Braine-le-Comte / Bruxelles</div>
-               <div class="contact-donnee-2-2">Je me déplace aisément.</div>
+               <div class="contact-donnee-2-2">Je me déplace facilement.</div>
             </div>
 
          </div>

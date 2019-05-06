@@ -16,7 +16,7 @@
 
       <h4 class="services-1">MES SERVICES</h4>
 
-      <h3 class="services-2">Que Sais-Je Faire ?</h3>
+      <h3 class="services-2">Quels sont mes services ?</h3>
 
       <div class="services-3">
 

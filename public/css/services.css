@@ -45,6 +45,7 @@
          flex-wrap: wrap;
          padding: 5vh;
          background-color: #EDEDED;
+         transition: transform .2s;
       }
 
       .services-3-1-1 {
@@ -75,4 +76,5 @@
       .services-3-1:hover {
          background-image: linear-gradient(to left bottom, #153350, #203e5d, #2a4a6a, #355677, #3f6285, #426e91, #457b9d, #4988a9, #4898b2, #4da8b9, #58b7be, #69c6c0);
          color: white !important;
+         transform: scale(1.05);
       }

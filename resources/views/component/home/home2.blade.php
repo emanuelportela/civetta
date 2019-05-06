@@ -6,7 +6,7 @@
       <div class="col-sm-6 about-1">
          
          <div class="about-1-1">
-            <div class="about-1-1-img"></div>
+            <div class="about-1-1-img-2"></div>
          </div>
          
          <div class="about-1-2"></div>
@@ -28,7 +28,7 @@
             <a href="https://molengeek.com/">
                <img src="{{asset('img/logo-mg1.png')}}" style="width:120px;">
             </a>
-            . J'y ai appris plusieurs langages de code et à travailler en équipe. Je suis dés à présent à la recherche d'un travail et de plus d'expérience.
+            . J'y ai appris plusieurs langages de code et à travailler en équipe. Je suis dès à présent à la recherche d'un travail et de plus d'expérience.
          </p>
          
 
@@ -39,4 +39,5 @@
       <!-- About : Text (end) -->
    
    </div>
+   <div class="about-1-3">Pictures by <a href="https://www.instagram.com/pandion.pictures/"><img class="img" src="{{asset('img/pandion.jpg')}}"></a></div>
 </div>

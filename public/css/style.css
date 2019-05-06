@@ -169,3 +169,47 @@ body {
 }
 
 /* TOP HEADER (end) */
+
+
+/* BURGER MENU (start) */
+
+.burger-1 {
+   height: 400px;
+   width: 100%;
+   display: none;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   border: solid 2px #153350;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   z-index: 999;
+   position: fixed;
+   top: 82px;
+   background-image: linear-gradient(to left bottom, #153350, #203e5d, #2a4a6a, #355677, #3f6285, #426e91, #457b9d, #4988a9, #4898b2, #4da8b9, #58b7be, #69c6c0);
+}
+#burger:hover {
+   cursor: pointer;
+} 
+
+.b-1 {
+   height: 25%;
+   width: 100%;
+   font-family: 'Lobster', cursive;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.b-2 {
+   text-decoration: none;
+   color: #FFFFFF;
+   font-size: 35px;
+}
+
+.b-2:hover {
+   color: #0f273d;
+   text-decoration: none;
+}
+
+/* BURGER MENU (end) */

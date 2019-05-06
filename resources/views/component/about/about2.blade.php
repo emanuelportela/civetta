@@ -4,7 +4,7 @@
 
 </section>
 
-<section class="container about" style="margin-top:0">
+<section class="container about" style="margin-top:40px">
    <div class="row">
 
       <!-- About - Photo (start) -->
@@ -12,11 +12,10 @@
       <div class="col-sm-6 about-1">
          
          <div class="about-1-1">
-            <div class="about-1-1-img"></div>
+            <div class="about-1-1-img-2"></div>
          </div>
          
          <div class="about-1-2"></div>
-         
 
       </div>
 
@@ -34,7 +33,7 @@
             <a href="https://molengeek.com/">
                <img src="{{asset('img/logo-mg1.png')}}" style="width:120px;">
             </a>
-         . J'y ai appris plusieurs langages de code et à travailler en équipe. Je suis dés à présent à la recherche d'un travail et de plus d'expérience.
+         . J'y ai appris plusieurs langages de code et à travailler en équipe. Je suis dès à présent à la recherche d'un travail et de plus d'expérience.
          </p>
 
          <a class="about-2-4" href="{{ asset('CV-Emanuel-Portela.pdf')}}" download>TÉLÉCHARGER CV</a>

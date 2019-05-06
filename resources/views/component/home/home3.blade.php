@@ -1,12 +1,12 @@
 <!-- Section Services -->
 
-<section class="section-services" style="padding-top:30px;">
+<section class="section-services" style="padding-top:30px; margin-bottom:50px;">
 
    <div class="services">
 
       <h4 class="services-1">MES SERVICES</h4>
 
-      <h3 class="services-2">Que Sais-Je Faire ?</h3>
+      <h3 class="services-2">Quels sont mes services ?</h3>
 
       <div class="services-3">
 
@@ -41,6 +41,8 @@
       </div>
 
    </div>
+
+   
 
 </section>
 
@@ -175,6 +177,7 @@
 @media only screen and (max-width: 500px) {
    .section-services {
       padding: 30px;
+      margin-bottom: 0px !important;
    }
    
    .services-3 {
@@ -183,5 +186,7 @@
 }
 
 /* ECRAN LARGE - 500px (end) */
+
+
 
 </style>

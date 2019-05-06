@@ -1,5 +1,16 @@
 <!-- Header section -->
    
+   <!-- Burger (start) -->
+   <div class="burger-1">
+
+      <div class="b-1"><a class="b-2" href="{{route('home')}}">Home</a></div>
+      <div class="b-1"><a class="b-2" href="{{route('about')}}" style="color:#0f273d">About</a></div>
+      <div class="b-1"><a class="b-2" href="{{route('services')}}">Services</a></div>
+      <div class="b-1"><a class="b-2" href="{{route('contact')}}">Contact</a></div>
+
+   </div>
+   <!-- Burger (end)-->
+
    <header class="header-section">
       
       <div class="header-logo">
@@ -7,8 +18,9 @@
       </div>
       
       <!-- Navigation -->
-      <div class="responsive"><i class="fa fa-bars"></i></div>
-         
+      <div class="responsive" id="burger"><i class="fa fa-bars"></i></div>
+      
+      <!-- Navbar -->
       <nav>
          <ul class="navbar">
             <li><a href="{{route('home')}}">HOME</a></li>
