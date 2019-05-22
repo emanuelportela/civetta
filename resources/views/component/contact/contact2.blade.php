@@ -4,7 +4,7 @@
 
 </section>
 
-<section class="contact-map">
+{{-- <section class="contact-map">
 
    <div style="width: 100%">
       <iframe width="100%" height="450px" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Braine-le-Comte+(My%20City)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
@@ -12,17 +12,23 @@
       </iframe>
    </div>
 
-</section>
+</section> --}}
 
 <section class="contact-form">
 
    <div class="row">
-      <div class="col-sm-12 col-md-8">
+      <div class="col-sm-12 col-md-7">
+
+         <iframe width="100%" height="450px"
+         src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Braine-le-Comte+(My%20City)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            <a href="https://www.maps.ie/map-my-route/">Map a route</a>
+        </iframe>
             
-         <form action="{{ route ('mail')}}" method="POST" class="form-class contact-form-1">
+         {{-- <form action="{{ route ('mail')}}" method="POST" class="form-class contact-form-1">
             @csrf
 
-            <h3 class="c-form-1-1" >Contactez-moi !</h3>
+            
 
             <input type="text" name="nom" value="{{old('nom')}}" class="c-form-1-2" placeholder="Entrez votre nom.">
 
@@ -49,12 +55,14 @@
 
             <button type="submit" class="c-form-1-5">ENVOYER</button>
          
-         </form>
+         </form> --}}
 
       </div>
 
-      <div class="col-sm-12 col-md-4 contact-donnees">
-
+      <div class="col-sm-12 col-md-5 contact-donnees">
+         
+         <h3 class="c-form-1-1" >Contactez-moi !</h3>
+         
          <div class="contact-donnee">
 
             <div class="contact-donnee-1"><i class="fas fa-home"></i></i></div>

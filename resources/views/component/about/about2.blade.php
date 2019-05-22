@@ -12,7 +12,7 @@
       <div class="col-sm-6 about-1">
          
          <div class="about-1-1">
-            <div class="about-1-1-img-2"></div>
+            <div class="about-1-1-img-3"></div>
          </div>
          
          <div class="about-1-2"></div>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Stylesheets -->
+   <link rel="icon" type="image/png" href="img/logo-haut.png" sizes="16x16"/>
+   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+   <link rel="stylesheet" href="css/owl.carousel.css"/>
+   <link rel="stylesheet" href="css/font-awesome.min.css"/>
+   <link rel="stylesheet" href="css/flaticon.css"/>
+   <link rel="stylesheet" href="css/node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+   <!-- Pages -->
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" href="css/about.css">
+   <link rel="stylesheet" href="css/contact.css">
+   <link rel="stylesheet" href="css/services.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/mediaqueries.css">
+
+   <!-- Font-->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+   <title>Civetta Development</title>
+</head>
+
+<body>
+
+   <!-- @yield('content') start -->
+
+<!-- Header section -->
+   
+   <!-- Burger (start) -->
+   <div class="burger-1">
+
+      <div class="b-1"><a class="b-2" href="index.html">Home</a></div>
+      <div class="b-1"><a class="b-2" href="about.html" style="color:#0f273d">About</a></div>
+      <div class="b-1"><a class="b-2" href="services.html">Services</a></div>
+      <div class="b-1"><a class="b-2" href="contact.php">Contact</a></div>
+
+   </div>
+   <!-- Burger (end)-->
+
+   <header class="header-section">
+      
+      <div class="header-logo">
+         <a href="index.html"><img src="img/final-4.png"></a>
+      </div>
+      
+      <!-- Navigation -->
+      <div class="responsive" id="burger"><i class="fa fa-bars"></i></div>
+      
+      <!-- Navbar -->
+      <nav>
+         <ul class="navbar">
+            <li><a href="index.html">HOME</a></li>
+            <li class="active"><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
+         </ul>
+      </nav>   
+
+   </header>
+<!-- Header section end -->
+
+<section class='top-header'>
+
+   <h1>A propos de moi</h1>
+
+</section>
+
+<section class="container about" style="margin-top:40px">
+   <div class="row">
+
+      <!-- About - Photo (start) -->
+
+      <div class="col-sm-6 about-1">
+         
+         <div class="about-1-1">
+            <div class="about-1-1-img-3"></div>
+         </div>
+         
+         <div class="about-1-2"></div>
+
+      </div>
+
+      <!-- About - Photo (end)-->
+
+      <!-- About - Text (start) -->
+      
+      <div class="col-sm-6 about-2">
+
+         <h4 class="about-2-1">QUI SUIS-JE ?</h4>
+
+         <h3 class="about-2-2">Junior Full-Stack Developer</h3>
+
+         <p class="about-2-3">Je suis un jeune développeur web qui vient d'effectuer une formation intensive de 6 mois chez 
+            <a href="https://molengeek.com/">
+               <img src="img/logo-mg1.png" style="width:120px;">
+            </a>
+         . J'y ai appris plusieurs langages de code et à travailler en équipe. Je suis dès à présent à la recherche d'un travail et de plus d'expérience.
+         </p>
+
+         <a class="about-2-4" href="CV-Emanuel-Portela.pdf" download>TÉLÉCHARGER CV</a>
+
+      </div>
+
+      <!-- About : Text (end) -->
+   
+   </div>
+</section>
+
+<section class="skills">
+
+   <h4 class="skills-1 about-2-1">COMPÉTENCES</h4>
+
+   <h3 class="skills-2 about-2-2">Quels langages j'utilise ?</h3>
+   
+   <div class="skills-3">
+      <img src="img/skills1.png">
+      <img src="img/skills2.png">
+      <img src="img/skills3.png">
+      <img src="img/skills9.png">
+      <img src="img/skills4.png">
+      <img src="img/skills6.png">
+      <img src="img/skills7.png">
+      <img src="img/skills8.png">
+      <img src="img/skills5.png">
+   </div>
+
+</section>
+
+
+<style>
+
+.carousel {
+   width: 100%;
+   height: 500px;
+   background-color: red;
+}
+
+</style>
+
+   <!-- @yield('content') end -->
+
+   <!-- @include('layouts.footer') start -->
+   <footer>
+
+      <div class="footer-1">
+         
+         <div class="footer-logo"><a href="index.html">
+            <img src="img/finalement-4.png">
+         </a></div>
+   
+         <div class="footer-nav">
+   
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.php">CONTACT</a>
+   
+         </div>
+         
+         <div class="footer-icons">
+   
+            <a href="https://www.facebook.com/EmanuelPortelaR"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/emanuel-portela-ribeiro-703966174/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/emanuelportela"><i class="fab fa-github"></i></a>
+         
+         </div>
+      
+      </div>
+   
+      <div class="footer-2">Civetta Development - Emanuel Portela</div>
+
+      <!-- @include('layouts.footer') end -->
+   
+   </footer>
+   
+   <script src="js/main.js"></script>
+   <script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/burger.js"></script>
+   
+</body>
+
+   
+
+</html>
